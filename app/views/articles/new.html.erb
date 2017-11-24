@@ -1,4 +1,6 @@
-<%= form_with scope: :article, local: true do |form| %>
+<h1>New Article</h1>
+
+<%= form_with scope: :article, url: articles_path, local: true do |form| %>
     <p>
       <%= form.label :title %><br>
       <%= form.text_field :title %>
