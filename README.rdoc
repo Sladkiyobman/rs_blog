@@ -1,6 +1,6 @@
 == README
 
-http://rusrails.ru/getting-started-with-rails#ispolzovanie-partialov-dlya-ochistki-povtoreniya-vo-vyuhah
+http://rusrails.ru/getting-started-with-rails
 
 
 Please feel free to use a different markup language if you do not plan to run
