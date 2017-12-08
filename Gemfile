@@ -1,5 +1,14 @@
 source 'https://rubygems.org'
 
+
+group :test do
+  gem 'rspec-rails', '~> 3.6' # Тестирование (удалить папку test)
+  gem 'factory_girl'
+  gem 'rails-controller-testing', '~> 1.0', '>= 1.0.2'
+  gem 'database_cleaner', '~> 1.6', '>= 1.6.2'
+end
+
+
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '5.1.4'
 # gem 'rails', '4.2.10'
